@@ -36,5 +36,5 @@ jobs:
           docker push arpitasri12/arpitaexample:example1
       - name: Docker container creation test
         run: |
-          docker run -dt --name c1 garpitasri12/arpitaexample:example1
+          docker run -dt --name c1 arpitasri12/arpitaexample:example1
           docker ps
