@@ -43,6 +43,7 @@ public class LoginServlet extends HttpServlet {
 		out.println("<h1> Welcome to DevOps Workshop by Techlanders - v3 </h1>");
 		out.println("</body>");
 		out.println("</html>");
+		
 
 	}
 
